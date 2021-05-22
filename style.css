@@ -1,8 +1,22 @@
 body {
     text-align: center;
+    font-family: 'Spectral', serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
 }
 
 img {
     height: 350px;
     width: 350px;
+}
+
+#title {
+    background: linear-gradient(#ffe72e 0%, #eb7317 50%, #c91818 100%)
+}
+
+p {
+    font-size: 20px;
 }
