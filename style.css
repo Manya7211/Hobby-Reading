@@ -2,6 +2,17 @@ body {
     text-align: center;
 }
 
+.authors {
+    width: 550px;
+    height: 550px;
+    border-color: black;
+    transition: transform .2s;
+}
+
+.authors:hover {
+    transform: scale(0.9);
+}
+
 .menu {
     list-style: none;
     font-family: sans-serif;
@@ -40,7 +51,7 @@ body {
     font-family: 'Shadows Into Light', cursive
 }
 
-img {
+#profile {
     height: 350px;
     width: 350px;
     border-radius: 15%;
@@ -48,6 +59,14 @@ img {
 
 #welcome {
     background: linear-gradient(#ffe72e 0%, #eb7317 50%, #c91818 100%)
+}
+
+.articles {
+    text-decoration: none;
+}
+
+.articles:hover {
+    color: aquamarine;
 }
 
 p {
