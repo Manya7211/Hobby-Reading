@@ -3,56 +3,29 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
-    transition: transform .2s;
-    margin: 10px;
-}
-
-img:hover {
-    transform: scale(0.9);
+    width: 500px;
+    height: 500px;
 }
 
 h1 {
-    font-size: 40px;
-    font-family: cursive;
-    font-weight: 300;
+    font-size: 35px;
 }
 
-#myCarousel {
-    background-color: cornflowerblue;
-}
-
-#myCarousel img{
-    height: 300px;
-    margin-top: 45px;
-}
-
-.container {
-    text-align: center;
-}
-
-.carousel-inner p{
-    margin-bottom: 15px;
-    margin-top: 15px;
+p {
     font-size: 20px;
 }
 
-#apps {
-    background-color: darksalmon;
-    width: 100%;
-    height: 800px;
+#Mary {
+    background: linear-gradient(#19769e 0%, #199e69 100%)
+}
+
+#Tui {
+    background: linear-gradient(#db1a61 0%, #8c24ed 100%)
 }
 
 .line {
     height: 6px;
-    width: 70px;
     background-color: black;
+    width: 70px;
     margin: 8px auto;
-}
-
-#chatbot {
-    background-color: #FFE082;
-    width: 100%;
-    height: 800px;
 }
