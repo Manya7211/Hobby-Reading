@@ -1,31 +1,28 @@
-body {
-    text-align: center;
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10px;
+    background: white;
+    color: darkblue;
 }
 
-img {
-    width: 500px;
-    height: 500px;
+.items {
+    padding-left: 35px;
+    padding-right: 25px;
+    display: inline;
+    font-family: cursive;
+    font-size: 21px;
 }
 
-h1 {
-    font-size: 35px;
+.items:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
-p {
-    font-size: 20px;
-}
-
-#Mary {
-    background: linear-gradient(#19769e 0%, #199e69 100%)
-}
-
-#Tui {
-    background: linear-gradient(#db1a61 0%, #8c24ed 100%)
-}
-
-.line {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
+html {
+    scroll-behavior: smooth;
 }
